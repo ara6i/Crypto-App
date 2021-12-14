@@ -7,10 +7,10 @@ import store from "./app/store";
 import "antd/dist/antd.css";
 
 ReactDOM.render(
-   <HashRouter>
+   <Router>
       <Provider store={store}>
     <App />
   </Provider>
-  </HashRouter>,
+  </Router>,
   document.getElementById("root")
 );
